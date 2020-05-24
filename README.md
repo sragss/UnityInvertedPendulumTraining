@@ -22,5 +22,8 @@
 
 ## Debugging
 * For incompatability between apis (message like "The communication API version is not compatible between Unity and python") try checking out the latest branch of ML-Agents then reinstalling with:
-    * `cd ml-agents-envs && pip install -e . && cd ../ml-agents && pip install -e`
+    * `cd ml-agents-envs && pip install -e . && cd ../ml-agents && pip install -e .`
     * Then you may have to relaunch your venv to see the changes
+
+## Other notes
+* Not sure if ml-agents and ml-agents-envs are required, but gave up on debugging.
